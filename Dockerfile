@@ -8,6 +8,4 @@ RUN pip3 install -r requirements.txt --no-cache-dir
 
 COPY ./project/ .
 
-COPY shell.sh .
-RUN chmod +x shell.sh
-CMD ["./shell.sh"]
+CMD ["python3", "manange.py", "runserver"]
