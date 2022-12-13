@@ -1,6 +1,6 @@
 FROM python:3.9-alpine3.17
 EXPOSE 8000
-WORKDIR /project
+WORKDIR /project/
 COPY requirements.txt .
 RUN apk update
 RUN apk add sqlite
