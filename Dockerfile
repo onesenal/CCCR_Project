@@ -8,4 +8,4 @@ RUN pip3 install -r requirements.txt --no-cache-dir
 
 COPY ./project/ .
 
-CMD ["python3", "manange.py", "runserver"]
+CMD ["python3", "manange.py", "runserver", "0.0.0.0:8000"]
