@@ -6,7 +6,7 @@ RUN apk update
 RUN apk add sqlite
 RUN pip3 install -r requirements.txt --no-cache-dir
 
-COPY ./django/ .
+COPY ./project/ .
 
 COPY shell.sh .
 RUN chmod +x shell.sh
