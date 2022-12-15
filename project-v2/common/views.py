@@ -1,6 +1,8 @@
 from django.contrib.auth import authenticate, login
 from django.shortcuts import render, redirect
 from common.forms import UserForm
+from django.http import HttpResponse
+
 
 
 def signup(request):
@@ -16,3 +18,11 @@ def signup(request):
     else:
         form = UserForm()
     return render(request, 'common/signup.html', {'form': form})
+
+def getContinental(request):
+    path = request.path
+    str = path[8:len(path)-1]
+    context = {'continental': str}
+    
+    return HttpResponse(str)
+    #return render(request, 'common/continental.html', context)
