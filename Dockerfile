@@ -4,7 +4,7 @@ WORKDIR /project/
 COPY requirements.txt .
 RUN apk update \
     && apk add --virtual build-deps gcc python3-dev musl-dev \
-    && apk add --no-cache mariadb-dev
+    && apk add mariadb-connector-c-dev
 RUN pip3 install --upgrade pip
 RUN pip3 install -r requirements.txt --no-cache-dir
 RUN apk del build-deps
