@@ -4,6 +4,7 @@ WORKDIR /project/
 COPY requirements.txt .
 RUN apk update
 RUN apk add sqlite
+RUN pip3 install --upgrade pip
 RUN pip3 install -r requirements.txt --no-cache-dir
 
 COPY ./project-v2/ .
