@@ -3,7 +3,8 @@ EXPOSE 8000
 WORKDIR /project/
 COPY requirements.txt .
 RUN apk update \
-    $$ apk add python3-dev libmysqlclient-dev gcc 
+    $$ apk add sqlite python3-dev libmysqlclient-dev gcc \
+    $$ apk add gcc musl-dev mariadb-connector-c-dev
 RUN pip3 install --upgrade pip
 RUN pip3 install -r requirements.txt --no-cache-dir
 
