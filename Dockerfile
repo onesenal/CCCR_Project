@@ -3,7 +3,7 @@ EXPOSE 8000
 WORKDIR /project/
 COPY requirements.txt .
 RUN apk update \
-    $$ apk add --virtual python3-dev libmysqlclient-dev gcc 
+    $$ apk add python3-dev libmysqlclient-dev gcc 
 RUN pip3 install --upgrade pip
 RUN pip3 install -r requirements.txt --no-cache-dir
 
