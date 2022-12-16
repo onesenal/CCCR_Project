@@ -8,4 +8,5 @@ RUN pip3 install -r requirements.txt --no-cache-dir
 
 COPY ./project-v2/ .
 
+CMD ["python3", "manage.py", "inspectdb"]
 CMD ["python3", "manage.py", "runserver", "0.0.0.0:8000"]
