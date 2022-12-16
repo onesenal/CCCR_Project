@@ -4,7 +4,7 @@ DATABASES = {
         'NAME': 'travelinfo',
         'USER': 'root',
         'PASSWORD': '',
-        'HOST': '192.168.119.158',
+        'HOST': 'db-svc.default.svc.cluster.local',
         'PORT': '3306',
     }
 }
