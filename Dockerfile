@@ -3,8 +3,8 @@ EXPOSE 8000
 WORKDIR /project/
 COPY requirements.txt .
 RUN apk update \
-    && --virtual build-deps gcc python3-dev musl-dev \
-    && --no-cache mariadb-dev
+    && apk add --virtual build-deps gcc python3-dev musl-dev \
+    && apk add --no-cache mariadb-dev
 RUN pip3 install --upgrade pip
 RUN pip3 install -r requirements.txt --no-cache-dir
 RUN apk del build-deps
