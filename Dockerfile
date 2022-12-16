@@ -3,9 +3,11 @@ EXPOSE 8000
 WORKDIR /project/
 COPY requirements.txt .
 RUN apk update \
-    && apk add sqlite python3-dev libmariadb-dev gcc
+    && --virtual build-deps gcc python3-dev musl-dev \
+    && --no-cache mariadb-dev
 RUN pip3 install --upgrade pip
 RUN pip3 install -r requirements.txt --no-cache-dir
+RUN apk del build-deps
 
 COPY ./project-v2/ .
 
