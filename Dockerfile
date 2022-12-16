@@ -2,9 +2,8 @@ FROM python:3.9-alpine3.17
 EXPOSE 8000
 WORKDIR /project/
 COPY requirements.txt .
-RUN apk update
-RUN apk add sqlite
-RUN apk add mysql-client
+RUN apk update \
+    $$ apk add --virtual python3-dev libmysqlclient-dev gcc 
 RUN pip3 install --upgrade pip
 RUN pip3 install -r requirements.txt --no-cache-dir
 
