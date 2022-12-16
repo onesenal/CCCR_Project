@@ -1,6 +1,2 @@
 Django
 environs
-python3-dev 
-libmysqlclient-dev 
-gcc
-mysqlclient
