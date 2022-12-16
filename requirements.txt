@@ -1,5 +1,6 @@
 Django
 environs
+--upgrade pip
 python3-dev
 libmysqlclient-dev 
 gcc
