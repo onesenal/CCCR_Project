@@ -4,7 +4,7 @@ DATABASES = {
         'NAME': 'travelinfo',
         'USER': 'root',
         'PASSWORD': '',
-        'HOST': '192.168.119.165',
+        'HOST': '192.168.119.168',
         'PORT': '3306',
     }
 }
