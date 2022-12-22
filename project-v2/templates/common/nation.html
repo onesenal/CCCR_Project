@@ -6,8 +6,10 @@
         {% for nation in nation_list %}
         <tr>
             <td>
-                <a href="{% url 'common:nationName' nation_name=nation.name continame=nation.continame %}">{{ nation.kname }}</a><br>
-                <img src ="/static/country/{{ nation.name }}.png">
+                국가명 : {{ nation.kname }}<br>
+                <img src ="/static/country/{{ nation.name }}.png"><br>
+                속한 지역 : {{ nation.continental }}<br>
+                설명 : {{ nation.description }}
             </td>
         </tr>
         {% endfor %}

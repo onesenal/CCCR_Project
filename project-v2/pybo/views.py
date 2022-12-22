@@ -2,6 +2,7 @@ from django.shortcuts import render, get_object_or_404
 from .models import Question
 from django.core.paginator import Paginator 
 from django.db.models import Q
+from common.models import Country
 
 # Create your views here.
 def index(request):
@@ -16,4 +17,3 @@ def detail(request, question_id):
     question = get_object_or_404(Question, pk=question_id)
     context = {'question': question}
     return render(request, 'pybo/nation_info.html', context)
-

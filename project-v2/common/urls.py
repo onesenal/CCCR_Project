@@ -4,15 +4,18 @@ from . import views
 
 app_name = 'common'
 
-continental = ["NAmerica", "SAmerica", "Asia", "Africa", "Europe", "Oceania",]
-nAmerica = "nAmerica"
 
 urlpatterns = [
+    
+    path('', views.index, name = 'index'), 
     path('NAmerica/', views.getContinental, name="NAmerica"),
     path('SAmerica/', views.getContinental, name='SAmerica'),
     path('Asia/', views.getContinental, name='Asia'),
     path('Africa/', views.getContinental, name='Africa'),
     path('Europe/', views.getContinental, name='Europe'),
     path('Oceania/', views.getContinental, name='Oceania'),
-    path('FAQ/', auth_views.LoginView.as_view(template_name='common/FAQ.html'), name='FAQ')
+    path('FAQ/', auth_views.LoginView.as_view(template_name='common/FAQ.html'), name='FAQ'),
+    
+    path('<str:continame>/<str:nation_name>/', views.getNation, name="nationName")
+    
 ]
