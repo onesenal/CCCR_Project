@@ -11,5 +11,4 @@ RUN apk del build-deps
 
 COPY ./project-v2/ .
 COPY run.sh .
-RUN chmod +x run.sh
 CMD ./run.sh
