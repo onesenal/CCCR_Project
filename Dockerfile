@@ -5,7 +5,7 @@ COPY requirements.txt .
 RUN apk update \
     && apk add gcc musl-dev mariadb-connector-c-dev
 RUN pip3 install -r requirements.txt --no-cache-dir
-RUN apk del build-deps
+RUN apk del gcc musl-dev
 
 COPY ./site2/ .
 COPY run.sh .
