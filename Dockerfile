@@ -7,7 +7,7 @@ RUN apk update \
 RUN pip3 install -r requirements.txt --no-cache-dir
 RUN apk del gcc musl-dev
 
-COPY ./site2/ .
+COPY ./site3/ .
 COPY run.sh .
 RUN chmod +x run.sh
 CMD ./run.sh
