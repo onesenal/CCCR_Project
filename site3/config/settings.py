@@ -83,8 +83,8 @@ DATABASES = {
         'NAME': 'travelinfo',
         'USER' : 'django',
         'PASSWORD' : 'django',
-        'HOST' : 'localhost',
-        'PORT' : '3306',
+        'HOST' : 'mycluster.mysql-cluster.svc.cluster.local',
+        'PORT' : '6447',
     }
 }
 
