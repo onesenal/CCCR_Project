@@ -8,8 +8,15 @@ def index(request):
 
 def detail(request, world_id):
     wi = world.objects.get(id=world_id)
-    pi = 'hello'
-    context = {'wi': wi, 'pi' : pi}
+    p1 = world.objects.get(id=world_id)
+    p2 = world.objects.get(id=world_id)
+    p3 = world.objects.get(id=world_id)
+    p4 = world.objects.get(id=world_id)
+    p5 = world.objects.get(id=world_id)
+    p6 = world.objects.get(id=world_id)
+    p7 = world.objects.get(id=world_id)
+    p8 = world.objects.get(id=world_id)
+    context = {'wi': wi, 'p1': p1, 'p2': p2, 'p3': p3, 'p4': p4, 'p5': p5, 'p6': p6, 'p7': p7, 'p8': p8}
     return render(request, 'pybo/reserv_form.html', context)
 
 def reservation(request, world_id):

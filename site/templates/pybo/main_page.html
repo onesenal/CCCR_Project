@@ -11,22 +11,11 @@
 
 <body>
     <div id="wrap">
-        
-        {% if error == 'True' %}
-        <script>
-            alert('예약 실패');
-        </script>
-        {% endif %}
-        {% if error == 'False' %}
-        <script>
-            alert('예약 예약 성공')
-        </script>
-        {% endif %}
 
         <!-- 본문 영역 시작 -->
         <div id="container">
             <div id="vimg">
-                <img src="{% static 'logo-png.png' %}" alt="주차장">
+                <img src="{% static 'logo-png.png' %}" alt="세계지도">
             </div>
             </br>
             </br>
@@ -122,13 +111,13 @@
             </script>
             <div id="lot" class="">
                 <div id='table0' class="clr">
-                    <a href="https://kr.freepik.com/free-photo/_14371081.htm#query=%EC%A3%BC%EC%B0%A8%EC%9E%A5&position=46&from_view=search&track=sph">Freepik</a>
+                    <img src="{% static 'panorama.jpg' %}" alt="panorama">
                 </div>
                     <div id='table1' style="display: none;" class="line line1 clr">
                         {% for world in worlds.all %}
                         {% if world.CONTINENT == '1' %}
                         <form method="GET" action = "{% url 'pybo:detail' world.id %}" style="display: inline">
-                        <button type="submit">{{ world.COUNTRY }}번</button>
+                        <button type="submit">{{ world.COUNTRY }}</button>
                         </form>
                         {% endif %}
                         {% endfor %}
@@ -137,7 +126,7 @@
                         {% for world in worlds.all %}
                         {% if world.CONTINENT == '2' %}
                         <form method="GET" action = "{% url 'pybo:detail' world.id %}" style="display: inline">
-                        <button type="submit">{{ world.COUNTRY }}번</button>
+                        <button type="submit">{{ world.COUNTRY }}</button>
                         </form>
                         {% endif %}
                         {% endfor %}
@@ -146,7 +135,7 @@
                         {% for world in worlds.all %}
                         {% if world.CONTINENT == '3' %}
                         <form method="GET" action = "{% url 'pybo:detail' world.id %}" style="display: inline">
-                        <button type="submit">{{ world.COUNTRY }}번</button>
+                        <button type="submit">{{ world.COUNTRY }}</button>
                         </form>
                         {% endif %}
                         {% endfor %}
@@ -155,7 +144,7 @@
                         {% for world in worlds.all %}
                         {% if world.CONTINENT == '4' %}
                         <form method="GET" action = "{% url 'pybo:detail' world.id %}" style="display: inline">
-                        <button type="submit">{{ world.COUNTRY }}번</button>
+                        <button type="submit">{{ world.COUNTRY }}</button>
                         </form>
                         {% endif %}
                         {% endfor %}
@@ -164,7 +153,7 @@
                         {% for world in worlds.all %}
                         {% if world.CONTINENT == '5' %}
                         <form method="GET" action = "{% url 'pybo:detail' world.id %}" style="display: inline">
-                        <button type="submit">{{ world.COUNTRY }}번</button>
+                        <button type="submit">{{ world.COUNTRY }}</button>
                         </form>
                         {% endif %}
                         {% endfor %}
@@ -173,15 +162,13 @@
                         {% for world in worlds.all %}
                         {% if world.CONTINENT == '6' %}
                         <form method="GET" action = "{% url 'pybo:detail' world.id %}" style="display: inline">
-                        <button type="submit">{{ world.COUNTRY }}번</button>
+                        <button type="submit">{{ world.COUNTRY }}</button>
                         </form>
                         {% endif %}
                         {% endfor %}
                     </div>
-
-                
-            </div>
-                
+                </div>
+            </div> 
         </div>
     </div>
 </body>

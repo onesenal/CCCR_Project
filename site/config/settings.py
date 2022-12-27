@@ -38,7 +38,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'django_crontab',
 ]
 
 MIDDLEWARE = [
@@ -81,11 +80,11 @@ CRONJOBS = [
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'test',
-        'USER' : 'root',
-        'PASSWORD' : '',
-        'HOST' : 'localhost',
-        'PORT' : '3306',
+        'NAME': 'travelinfo',
+        'USER' : 'django',
+        'PASSWORD' : 'django',
+        'HOST' : 'mycluster.mysql-cluster.svc.cluster.local',
+        'PORT' : '6447',
     }
 }
 
