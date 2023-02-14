@@ -46,7 +46,7 @@ Google Docs  | [기술문서](https://docs.google.com/document/d/1wqkB6zIrmwV0Ie
 Google Docs  | [최종발표자료](https://docs.google.com/presentation/d/1au2VufDmURyHaBiN-X1neYttO9TQMRXh/edit?usp=sharing&ouid=106249240240065525675&rtpof=true&sd=true) | 최종발표 문서입니다.
 
 #### Results
-<video src="https://github.com/onesenal/CCCR_Project/blob/main/Video/Project.mp4" controls="controls" style="max-width: 730px;">
+<video src="https://github.com/onesenal/CCCR_Project/blob/main/Video/CCCR_Project.gif" controls="controls" style="max-width: 730px;">
 </video>
 
 #### Feedback
