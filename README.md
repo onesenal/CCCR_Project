@@ -42,8 +42,8 @@
 PowerPoint  | [착수보고서](https://docs.google.com/presentation/d/1x4Q1G8w-2wpBMtshDAtTIDW0fHK6rAvB/edit?usp=sharing&ouid=106249240240065525675&rtpof=true&sd=true) | 중간발표 문서입니다.
 Google Docs  | [1주차 주간보고](https://docs.google.com/presentation/d/1PqmuyWuUxK6szw_smcM6tH7TKUExxJdk/edit?usp=sharing&ouid=106249240240065525675&rtpof=true&sd=true) | 1주차 주간발표 문서입니다.
 Google Docs  | [2주차 주간보고](https://docs.google.com/presentation/d/1IzrV5T5953Jbtkd-rt61LvH8ykKm_0WO/edit?usp=sharing&ouid=106249240240065525675&rtpof=true&sd=true) | 2주차 주간발표 문서입니다.
-Google Docs  | [기술문서](https://docs.google.com/document/d/1wqkB6zIrmwV0IeDULK8YuQFSvVFtMm5N/edit?usp=share_link&ouid=106249240240065525675&rtpof=true&sd=true) | 프로젝트 기술문서 입니다.
-Google Docs  | [최종발표자료]() | 최종발표 문서입니다.
+Google Docs  | [기술문서](https://docs.google.com/document/d/1wqkB6zIrmwV0IeDULK8YuQFSvVFtMm5N/edit?usp=sharing&ouid=106249240240065525675&rtpof=true&sd=true) | 프로젝트 기술문서 입니다.
+Google Docs  | [최종발표자료](https://docs.google.com/presentation/d/1au2VufDmURyHaBiN-X1neYttO9TQMRXh/edit?usp=sharing&ouid=106249240240065525675&rtpof=true&sd=true) | 최종발표 문서입니다.
 
 #### Results
 <video src="https://drive.google.com/file/d/16GB_WUh0bemPkbFSHYUOPCRt4qdWL3Bo/view?usp=sharing" controls="controls" style="max-width: 730px;">
