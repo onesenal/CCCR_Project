@@ -46,8 +46,7 @@ Google Docs  | [기술문서](https://docs.google.com/document/d/1wqkB6zIrmwV0Ie
 Google Docs  | [최종발표자료]() | 최종발표 문서입니다.
 
 #### Results
-<video width="320" height="240" controls>
-  <source src="https://drive.google.com/file/d/16GB_WUh0bemPkbFSHYUOPCRt4qdWL3Bo/view?usp=sharing" type="video/mp4">
+<video src="https://drive.google.com/file/d/16GB_WUh0bemPkbFSHYUOPCRt4qdWL3Bo/view?usp=sharing" controls="controls" style="max-width: 730px;">
 </video>
 
 #### Feedback
