@@ -39,14 +39,18 @@
 #### Documents
 유형 | 파일 | 파일내용
 :-------------: | :-------------: | :-------------:
-PowerPoint  | [착수보고서](https://docs.google.com/presentation/d/1x4Q1G8w-2wpBMtshDAtTIDW0fHK6rAvB/edit?usp=sharing&ouid=106249240240065525675&rtpof=true&sd=true) | 중간발표 문서입니다.
-Google Docs  | [1주차 주간보고](https://docs.google.com/presentation/d/1PqmuyWuUxK6szw_smcM6tH7TKUExxJdk/edit?usp=sharing&ouid=106249240240065525675&rtpof=true&sd=true) | 1주차 주간발표 문서입니다.
-Google Docs  | [2주차 주간보고](https://docs.google.com/presentation/d/1IzrV5T5953Jbtkd-rt61LvH8ykKm_0WO/edit?usp=sharing&ouid=106249240240065525675&rtpof=true&sd=true) | 2주차 주간발표 문서입니다.
-Google Docs  | [기술문서](https://docs.google.com/document/d/1wqkB6zIrmwV0IeDULK8YuQFSvVFtMm5N/edit?usp=sharing&ouid=106249240240065525675&rtpof=true&sd=true) | 프로젝트 기술문서 입니다.
-Google Docs  | [최종발표자료](https://docs.google.com/presentation/d/1au2VufDmURyHaBiN-X1neYttO9TQMRXh/edit?usp=sharing&ouid=106249240240065525675&rtpof=true&sd=true) | 최종발표 문서입니다.
+PowerPoint | [착수보고서](https://docs.google.com/presentation/d/1x4Q1G8w-2wpBMtshDAtTIDW0fHK6rAvB/edit?usp=sharing&ouid=106249240240065525675&rtpof=true&sd=true) | 중간발표 문서입니다.
+Google Docs | [1주차 주간보고](https://docs.google.com/presentation/d/1PqmuyWuUxK6szw_smcM6tH7TKUExxJdk/edit?usp=sharing&ouid=106249240240065525675&rtpof=true&sd=true) | 1주차 주간발표 문서입니다.
+Google Docs | [2주차 주간보고](https://docs.google.com/presentation/d/1IzrV5T5953Jbtkd-rt61LvH8ykKm_0WO/edit?usp=sharing&ouid=106249240240065525675&rtpof=true&sd=true) | 2주차 주간발표 문서입니다.
+Google Docs | [기술문서](https://docs.google.com/document/d/1wqkB6zIrmwV0IeDULK8YuQFSvVFtMm5N/edit?usp=sharing&ouid=106249240240065525675&rtpof=true&sd=true) | 프로젝트 기술문서 입니다.
+Google Docs | [최종발표자료](https://docs.google.com/presentation/d/1au2VufDmURyHaBiN-X1neYttO9TQMRXh/edit?usp=sharing&ouid=106249240240065525675&rtpof=true&sd=true) | 최종발표 문서입니다.
 
 #### Results
 ![](https://github.com/onesenal/CCCR_Project/blob/main/Video/CCCR_Project.gif)
 
 #### Feedback
-추가할것
+번호 | 유형 | 문제 | 피드백
+:-------------: | :-------------: | :-------------: | :-------------:
+1 | 인프라 | 리소스(메모리) 문제로 인한 K8s 환경(MySQL Operator, 모니터링, 로깅)을 갖추는데 제약 | 리소스 환경 또는 EKS환경 등에 대한 고민이 필요
+2 | 서비스 | 웹 서비스에 대한 개발 완성도 미흡 | 서비스를 구현하는데 있어서 개발 기술에 대한 이해 필요
+3 | 조직 | 협업 프로젝트에 대한 이해 부족 | 각각의 작업물을 통합시키는데 있어서 문제가 발생되고 업무 진행에 대한 보고 및 소통에 대한 문제를 해결하기 위한 업무 체계 확립이 필요
