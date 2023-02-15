@@ -49,7 +49,7 @@ Google Docs | [최종발표자료](https://docs.google.com/presentation/d/1au2Vu
 ![](https://github.com/onesenal/CCCR_Project/blob/main/Video/CCCR_Project.gif)
 
 #### Feedback
-번호 | 유형 | 문제 | 피드백
+번호 | 유형 | 문제 | 추후 과제
 :----: | :------: | :-------------: | :-------------:
 1 | 인프라 | 리소스(메모리) 문제로 인한 K8s 환경(MySQL Operator, 모니터링, 로깅)을 갖추는데 제약 | 리소스 환경 또는 EKS환경 등에 대한 고민이 필요
 2 | 서비스 | 웹 서비스에 대한 개발 완성도 미흡 | 서비스를 구현하는데 있어서 개발 기술에 대한 이해 필요
